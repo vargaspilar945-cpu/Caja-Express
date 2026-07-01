@@ -1,12 +1,4 @@
-# ===========================================
-# MÓDULO 4: COMPRA FINAL
-# Integrante: Larisa
-# Descuentos/promociones, medio de pago, total final, ticket
-# ===========================================
 
-# --- DATOS DE PRUEBA ---
-# Simula el pedido que viene del módulo 3.
-# Cuando el grupo conecte todo, este bloque se elimina.
 pedido_prueba = [
     {"nombre": "Hamburguesa", "precio": 3500, "cantidad": 2},
     {"nombre": "Gaseosa", "precio": 1200, "cantidad": 1},
@@ -14,7 +6,7 @@ pedido_prueba = [
 ]
 
 
-# --- FUNCIÓN 1: CALCULAR SUBTOTAL ---
+# --- CALCULAR SUBTOTAL ---
 def calcular_subtotal(pedido):
     """
     Recorre la lista de productos y devuelve la suma
@@ -26,7 +18,7 @@ def calcular_subtotal(pedido):
     return subtotal
 
 
-# --- FUNCIÓN 2: ELEGIR MEDIO DE PAGO ---
+# --- ELEGIR MEDIO DE PAGO ---
 def elegir_medio_pago():
     """
     Muestra las opciones de pago y valida que el usuario
@@ -49,7 +41,7 @@ def elegir_medio_pago():
             print("⚠️  Opción inválida. Por favor ingresá 1, 2 o 3.")
 
 
-# --- FUNCIÓN 3: APLICAR PROMOCIONES ---
+# --- APLICAR PROMOCIONES ---
 def aplicar_promociones(subtotal, medio_pago):
     """
     Aplica descuentos según el medio de pago y el monto total.
@@ -69,7 +61,7 @@ def aplicar_promociones(subtotal, medio_pago):
     return descuento, mensaje
 
 
-# --- FUNCIÓN 4: MOSTRAR TICKET ---
+# --- MOSTRAR TICKET ---
 def mostrar_ticket(pedido, subtotal, descuento, mensaje_descuento, medio_pago):
     """
     Imprime el ticket de compra con todos los detalles.
@@ -101,7 +93,7 @@ def mostrar_ticket(pedido, subtotal, descuento, mensaje_descuento, medio_pago):
     return total_final
 
 
-# --- FUNCIÓN 5: CERRAR COMPRA ---
+# --- CERRAR COMPRA ---
 def cerrar_compra(pedido):
     """
     Función principal del módulo. Ejecuta todo el flujo
