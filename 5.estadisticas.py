@@ -53,3 +53,27 @@ def comida_mas_vendida(pedidos):
             producto_top = producto
  
     return producto_top, cantidad_top
+ 
+# ---------- FUNCIONES DE PRESENTACIÓN ----------
+ 
+def mostrar_estadisticas(pedidos):
+    """Imprime en consola un resumen con todas las estadísticas."""
+    print("\n=== ESTADÍSTICAS DEL DÍA ===")
+ 
+    if not pedidos:
+        print("Todavía no se registraron pedidos.")
+        return
+ 
+    total_pedidos = cantidad_pedidos(pedidos)
+    total_vendido = calcular_total_vendido(pedidos)
+    producto, veces = comida_mas_vendida(pedidos)
+ 
+    print(f"Cantidad de pedidos: {total_pedidos}")
+    print(f"Total vendido: ${total_vendido}")
+ 
+    if producto is not None:
+        print(f"Producto más vendido: {producto} ({veces} unidades)")
+    else:
+        print("No hay datos de productos vendidos.")
+ 
+
