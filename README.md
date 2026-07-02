@@ -1,3 +1,51 @@
-# CajaExpress
-# Trabajo Final - Gestión de Pedidos  Integrantes: Abril Nahir LORINCZ - Larisa Selene OCAMPO - Brisa Alanis RODRIGUEZ - Gisela Mabel SOLOAGA - Pilar Agostina VARGAS  Comisión: Comisión 3.  
-Sistema de gestión de pedidos para un local gastronómico desarrollado en Python. Permite al cliente visualizar el menú de productos organizados por categoría, seleccionar items y armar un pedido, aplicar descuentos y promociones, calcular el total según el medio de pago elegido, y consultar estadísticas de ventas del día. El sistema se ejecuta por consola e incluye validaciones de datos y manejo de errores.
+# Sistema de Pedidos de Comida: Caja Express
+
+Trabajo Final Integrador - Python - AED
+
+## Integrantes del grupo
+
+- Abril Nahir LORINCZ
+- Larisa Selene OCAMPO 
+- Brisa Alanis RODRIGUEZ
+- Gisela Mabel SOLOAGA
+- Pilar Agostina VARGAS
+
+## Comisión:
+Comisión 3. Grupo Nro 24
+
+## Descripción general del sistema: 
+El sistema simula la gestión de pedidos de un local gastronómico. Permite:
+
+» Seleccionar productos y armar pedidos.
+» Calcular importes, aplicar promociones y/o descuentos.
+» Elegir medio de pago.
+» Registrar los pedidos realizados durante el día.
+» Consultar estadísticas de ventas: total vendido, comida más vendida y
+cantidad de pedidos realizados.
+
+El programa se ejecuta íntegramente por consola y está organizado en
+módulos, cada uno a cargo de una parte del sistema:
+
+Instrucciones de ejecución
+
+
+Tener instalado Python 3.10 o superior.
+Clonar el repositorio:
+
+
+   git clone [URL del repositorio]
+
+
+Ubicarse en la carpeta del proyecto:
+
+
+   cd nombre-del-proyecto
+
+
+Ejecutar el archivo principal:
+
+
+   python menu_principal.py
+
+
+Seguir las opciones que muestra el menú por consola.
