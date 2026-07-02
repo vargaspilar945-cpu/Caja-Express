@@ -11,15 +11,19 @@ Trabajo Final Integrador - Python - AED
 - Pilar Agostina VARGAS
 
 ## Comisión:
-Comisión 3. Grupo Nro 24
+Comisión 3. Grupo Nro 24.
 
 ## Descripción general del sistema: 
 El sistema simula la gestión de pedidos de un local gastronómico. Permite:
 
 » Seleccionar productos y armar pedidos.
+
 » Calcular importes, aplicar promociones y/o descuentos.
+
 » Elegir medio de pago.
+
 » Registrar los pedidos realizados durante el día.
+
 » Consultar estadísticas de ventas: total vendido, comida más vendida y
 cantidad de pedidos realizados.
 
