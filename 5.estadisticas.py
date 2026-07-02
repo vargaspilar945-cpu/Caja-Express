@@ -76,4 +76,45 @@ def mostrar_estadisticas(pedidos):
     else:
         print("No hay datos de productos vendidos.")
  
+def menu_estadisticas(pedidos):
+    """
+    Menú interactivo del módulo de estadísticas.
+    Se puede llamar desde el menú principal del sistema.
+    """
+    opcion = -1
+ 
+    while opcion != 0:
+        print("\n--- MENÚ ESTADÍSTICAS ---")
+        print("1. Ver estadísticas generales")
+        print("2. Ver cantidad de pedidos")
+        print("3. Ver total vendido")
+        print("4. Ver producto más vendido")
+        print("0. Volver al menú principal")
+ 
+        entrada = input("Elegí una opción: ")
+ 
+        # Validación: que lo ingresado sea un número
+        if not entrada.isdigit():
+            print("Error: ingresá un número válido.")
+            continue
+ 
+        opcion = int(entrada)
+ 
+        if opcion == 1:
+            mostrar_estadisticas(pedidos)
+        elif opcion == 2:
+            print(f"Cantidad de pedidos: {cantidad_pedidos(pedidos)}")
+        elif opcion == 3:
+            print(f"Total vendido: ${calcular_total_vendido(pedidos)}")
+        elif opcion == 4:
+            producto, veces = comida_mas_vendida(pedidos)
+            if producto is None:
+                print("No hay pedidos registrados todavía.")
+            else:
+                print(f"Producto más vendido: {producto} ({veces} unidades)")
+        elif opcion == 0:
+            print("Volviendo al menú principal...")
+        else:
+            print("Opción inválida, probá de nuevo.")
+ 
 
