@@ -16,7 +16,7 @@ Comisión 3. Grupo Nro 24.
 
 ## Video del sistema implementado: 
 
-[![Sistema de Pedidos de Comida Caja Express ](https://youtube.com<MnFn3hXKyBk>/maxresdefault.jpg)](<[URL_DEL_VIDEO](https://youtu.be/MnFn3hXKyBk)>)
+[![Sistema de Pedidos de Comida Caja Express ](https://youtube.com<MnFn3hXKyBk>/maxresdefault.jpg)](<(https://youtu.be/MnFn3hXKyBk)>)
 
 
 ## Descripción general del sistema
